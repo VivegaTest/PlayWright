@@ -20,7 +20,7 @@ export default defineConfig({
     reporter: [['html',{open:"on-failure"}]],   
     use: {
         trace: 'on',
-        headless: false,
+        headless: true,
         screenshot: "on",
         video: "on"
     },
