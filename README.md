@@ -4,6 +4,7 @@ This project uses **Playwright** for automated browser testing and end-to-end te
 ## Page Object Model Framework
 
 ## 📂 Folder Structure :
+.github/ – GitHub Actions for CI/CD
 constants/ - Global constants (URLs, credentials)
 customFixtures/ – Custom Playwright test fixtures
 data/ – JSON-based test data (users, tokens)
@@ -19,6 +20,13 @@ tests/ – Actual test specs (e.g., Account creation tests)
 ✅ Helper utilities for common actions
 ✅ GitHub Actions CI/CD ready
 ✅ Logging & custom reporter setup
+
+## 🚦 CI/CD Workflow
+
+.github/workflows/ contains CI pipelines for automation using GitHub Actions:
+    Linting
+    Running tests
+    Generating reports
 
 ## 📝 Future Enhancements (Suggestions)
     Add Allure or HTML Reporter.
